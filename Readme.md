@@ -29,5 +29,9 @@ This project uses machine learning regression models to predict house prices bas
 
 Install required dependencies:
 
-```bash
-pip install -r requirements.txt
+'''bash
+pip install -r requirements.txt'''
+
+## Deploying to Streamlit
+- run hpp.ipynb
+- open terminal run python Streamlit run app.py
