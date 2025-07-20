@@ -1,20 +1,33 @@
-# 🏠 House Price Prediction
+# 🏠 House Price Prediction Web App
 
-This project uses regression models to predict house prices based on various features using the Ames Housing dataset.
+This project uses machine learning regression models to predict house prices based on selected features from the Ames Housing dataset.
 
-## Features
-- Data Cleaning & Feature Engineering
-- Polynomial and Interaction Features
-- Multiple Model Training (Linear, Ridge, Lasso, RF, GBM, SVR)
-- Hyperparameter Tuning using GridSearchCV and RandomizedSearchCV
-- Model Evaluation using R², RMSE, and MAE
-- Visualization (Heatmaps, Boxplots)
+## 🔧 Features
 
-## Requirements
+- 📊 Data Cleaning & Feature Engineering
+- ➗ Polynomial and Interaction Features
+- 🤖 Trained multiple models:
+  - Linear Regression
+  - Ridge & Lasso Regression
+  - Random Forest Regressor
+  - Gradient Boosting Regressor
+  - Support Vector Regressor (SVR)
+- 🧪 Hyperparameter Tuning with:
+  - GridSearchCV
+  - RandomizedSearchCV
+- 📈 Model Evaluation using:
+  - R² Score
+  - RMSE (Root Mean Squared Error)
+  - MAE (Mean Absolute Error)
+- 📉 Visualizations:
+  - Heatmaps
+  - Boxplots
+  - Feature Importances
+- 🌐 Streamlit Web App for interactive predictions
 
-Install dependencies:
+## 📦 Requirements
+
+Install required dependencies:
+
 ```bash
 pip install -r requirements.txt
-
-## Run:
-jupyter notebook notebooks/house_price_prediction.ipynb
